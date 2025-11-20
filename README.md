@@ -1,7 +1,7 @@
 # Minis Language Support
 
 Provides syntax highlighting for the **Minis (.mi)** programming language.<br>
-This programming language is incomplete. You can view it (here)[https://github.com/TokynBlast/minis/tree/boot-strap]<br>
+This programming language is incomplete. You can view it [here](https://github.com/TokynBlast/minis/tree/boot-strap)<br>
 The boot strap branch is the one in current development. Tokenize was previously in development but eventually ditched.
 
 This is to help mainly, with writing the compiler, and is for the developer of the language.<br>
