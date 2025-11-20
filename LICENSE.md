@@ -1,7 +1,7 @@
 # Bspace License
-Version 3.3.0<br>
-License devolped by Tokyn Blast<br>
-Copyright (c) 2025 Tokyn Blast
+Variation of v4.0.0<br>
+License devolped by Tokyn Blast/Ruri<br>
+Copyright (c) 2025 Tokyn Blast/Ruri
 
 
 ## Definitions
@@ -11,9 +11,6 @@ Copyright (c) 2025 Tokyn Blast
 - **"Developer"** refers to any person or organization who is making or has made a modified version of the Program.
 - **"Variation"** refers to any modified version of the Program as defined in Section 4.
 - **"User"** refers to anybody who is using the original Program, or a modified version.
-- **"[link]"** is a refrence link to the original Program, and the variation the Program is based on. (If applicable).
-
-
 ## PreKnowledge
 - **Viewing**: This license is meant to be viewed via markdown.
 - **Change**: This license is subject to change, with or without notice.
@@ -25,22 +22,15 @@ Subject to the terms of this License, you are granted the rights to:
 1. Use the Program for any legal purpose. (Not commiting a crime, in any participants location),
 2. Modify the Program,
 3. Distribute variations of the Program,
-4. Modify this license,
+4. Modify this license
 
 
 ## 2. Commercial Use
 
-Commercial use is permitted at any time, unless otherwsie stated by any written means.<br>
-Written means must be publicly available and noticable.
+Commercial use is permitted at any time.
 
 
-## 3. Conditions
-
-All Variations must:
-1. **VISIBLY** and **NOTICEABLY** attribute the Author.
-
-
-## 4. Definition of Variations
+## 3. Definition of Variations
 
 A Variation includes, but is not limited to:
 1. Partial copies of the Program,
@@ -50,42 +40,20 @@ A Variation includes, but is not limited to:
 5. Modified versions of a variation
 
 
-## 5. Attribution Requirements
-
-When publishing a Variation, the following must be prominently displayed on the download page, source code, or some way the user and distributor can see it:
-
-```
-This is a variation of Program by Author.
-```
-And if applicable:
-
-```
-This is based on a variation of Program by Developer."
-```
-
-
-## 6. Liability
+## 4. Liability
 
 The Author is not liable for any Variations or modifications made by other Developers.<br>
-This includes harm to either self, others, properties, or other damagable objects.<br>
+This includes harm to self, others, properties, or other damagable objects.<br>
 This especially includes digital, physical and all other mediums, Including the internet (Or it's contents) itself.<br>
 This applies, without warranties of any kind, express or implied.<br>
 
 
-## 7. Profit and Monetization
+## 5. License Modifications
 
-Developers may monetize the Program, unless explicitly prohibited by the Author through any written means (digital, physical, or otherwise),<br>
-or if the Program is not meant to be used to make things.<br>
-Written means **MUST** be publicly available and noticable.
+This license may be modified by anyone for any reason or purpose.<br>
 
 
-## 8. License Modifications
-
-This license may be modified by Developers for their own Variations, provided that Sections 6, 8, and 9, as well as the PreKnowledge and Definitions sections, remain unchanged except for numbering adjustments.<br>
-Only the Author may create official new versions of this license. Modified versions must be clearly marked (e.g., 3.1.2-Modified), or they are invalid in a court of law.
-
-
-## 9. Void of Contract  
+## 6. Void of Contract  
 
 This license remains in effect unless and until the User removes all copies of the Program and any associated Variations within their control. This includes:  
 
