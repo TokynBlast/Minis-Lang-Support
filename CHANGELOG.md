@@ -1,2 +1,2 @@
-### v0.0.0
-<pre><img align='right' src='imgs/ver/'></pre>
+### v0.0.3
+<pre>Fixed package.json error and location (missing comma & syntaxes/syntaxes/package.json -> syntaxes/package.json)</pre>
