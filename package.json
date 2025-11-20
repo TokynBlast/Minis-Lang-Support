@@ -1,0 +1,36 @@
+{
+  "name": "minis-language",
+  "displayName": "Minis Language Support",
+  "description": "Syntax highlighting for the Minis programming language.",
+  "version": "0.0.3",
+  "publisher": "RuriDeJishi",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Programming Languages"],
+  "icon": "icon.png",
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "minis-icons",
+        "label": "Minis Icons",
+        "path": "./fileicons/minis-icon-theme.json"
+      }
+    ],
+    "languages": [
+      {
+        "id": "minis",
+        "aliases": ["Minis", "minis"],
+        "extensions": [".mi"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "minis",
+        "scopeName": "source.minis",
+        "path": "./syntaxes/minis.tmLanguage.json"
+      }
+    ]
+  }
+}

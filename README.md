@@ -1,11 +1,13 @@
-This is a template.
-There is an automation; Updating the license every 24 hours if there are changes.
-By default, this is disabled.
-Go to .github, and rename or remove LicLock.
-The only other change you should make is changing .github/funding.yml
-Either change the names, or, remove the file if you don't have GitHub sponsors setup.
-If you don't change it, people will be donating to me, NOT you.
+# Minis Language Support
 
-> [!TIP]
-> If you have a modified version of Bspace<br>
-> You should leave LicLock as it is.
+Provides syntax highlighting for the **Minis (.mi)** programming language.<br>
+This programming language is incomplete. You can view it (here)[https://github.com/TokynBlast/minis/tree/boot-strap]<br>
+The boot strap branch is the one in current development. Tokenize was previously in development but eventually ditched.
+
+This is to help mainly, with writing the compiler, and is for the developer of the language.<br>
+The actual language isn't complete yet and some key words are only for place holders.<br>
+Such as the with {} and {} statements. They used to be used for threading.<br>
+Threading was then moved to a standard library and they were no longer needed.<br>
+But, I still want to find some way to use it.
+
+Enjoy Minis! 😊
