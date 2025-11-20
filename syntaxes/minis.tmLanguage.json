@@ -1,0 +1,78 @@
+{
+  "scopeName": "source.minis",
+  "patterns": [
+    {
+      "name": "comment.line.double-slash",
+      "match": "//.*$"
+    },
+    {
+      "name": "comment.block",
+      "begin": "/\\*",
+      "end": "\\*/"
+    },
+
+    {
+      "name": "keyword.control.minis",
+      "match": "\\b(func|let|if|elif|else|while|return|break|continue|del|try|except|finally|import|yield|exit)\\b"
+    },
+
+    {
+      "name": "keyword.modifier.minis",
+      "match": "\\b(const|static|inline|tail|dead)\\b"
+    },
+
+    {
+      "name": "storage.type.minis",
+      "match": "\\b(int|float|bool|str|list|null|auto|void)\\b"
+    },
+
+    {
+      "name": "constant.language.boolean.minis",
+      "match": "\\b(true|false|null)\\b"
+    },
+
+    {
+      "name": "string.quoted.double.minis",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        { "match": "\\\\.", "name": "constant.character.escape" }
+      ]
+    },
+    {
+      "name": "string.quoted.single.minis",
+      "begin": "'",
+      "end": "'",
+      "patterns": [
+        { "match": "\\\\.", "name": "constant.character.escape" }
+      ]
+    },
+
+    {
+      "name": "constant.numeric.minis",
+      "match": "[+-]?\\b\\d+(?:\\.\\d+)?\\b"
+    },
+
+    {
+      "name": "keyword.operator.minis",
+      "match": "(==|!=|<=|>=|&&|\\|\\||=|<|>|\\+|-|\\*|\\/|%|!|\\^|\\$)"
+    },
+
+    {
+      "name": "punctuation.bracket.minis",
+      "match": "[\\(\\)\\{\\}\\[\\]]"
+    },
+
+    {
+      "name": "punctuation.delimiter.minis",
+      "match": "[,;:]"
+    },
+
+    {
+      "name": "entity.name.function.minis",
+      "match": "\\b([A-Za-z_][A-Za-z0-9_]*)(?=\\()"
+    }
+  ],
+
+  "uuid": "minis-highlight-003"
+}

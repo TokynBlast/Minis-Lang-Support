@@ -1,0 +1,14 @@
+{
+  "iconDefinitions": {
+    "minis-file": {
+      "iconPath": "./icon.png"
+    }
+  },
+
+  "fileExtensions": {
+    "mi": "minis-file"
+  },
+
+  "folder": "folder",
+  "folderExpanded": "folder-open"
+}
