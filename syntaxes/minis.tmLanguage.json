@@ -13,7 +13,7 @@
 
     {
       "name": "keyword.control.minis",
-      "match": "\\b(func|let|if|elif|else|while|return|break|continue|del|try|except|finally|import|yield|exit)\\b"
+      "match": "\\b(func|let|if|elif|else|while|return|break|continue|del|try|except|finally|import|yield|exit|in)\\b"
     },
 
     {
@@ -28,7 +28,7 @@
 
     {
       "name": "constant.language.boolean.minis",
-      "match": "\\b(true|false|null)\\b"
+      "match": "\\b(true|false)\\b"
     },
 
     {
@@ -55,7 +55,7 @@
 
     {
       "name": "keyword.operator.minis",
-      "match": "(==|!=|<=|>=|&&|\\|\\||=|<|>|\\+|-|\\*|\\/|%|!|\\^|\\$)"
+      "match": "(==|!=|<=|>=|&&|\\+=|-=|\\|\\||=|\\|!=|<|>|\\+|-|\\*|\\/|%|!|\\^|\\$)"
     },
 
     {
