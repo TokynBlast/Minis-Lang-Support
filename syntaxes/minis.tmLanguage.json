@@ -71,7 +71,7 @@
       "patterns": [
         {
           "name": "keyword.control.minis",
-          "match": "\\b(if|elif|else|while|for|return|break|continue|exit|in|as|with|and|table|use|class|new|unreachable|public|private|not)\\b"
+          "match": "\\b(if|elif|else|while|for|return|break|continue|exit|in|as|with|and|table|use|class|new|!unreachable|public|private|not)\\b"
         },
         {
           "name": "keyword.other.minis",
