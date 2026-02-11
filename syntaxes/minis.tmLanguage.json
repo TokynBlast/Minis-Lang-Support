@@ -71,11 +71,11 @@
       "patterns": [
         {
           "name": "keyword.control.minis",
-          "match": "\\b(if|elif|else|while|for|return|break|continue|exit|in|as|with|and|table|new)\\b"
+          "match": "\\b(if|elif|else|while|for|return|break|continue|exit|in|as|with|and|table|use|class|new|unreachable|public|private|not)\\b"
         },
         {
           "name": "keyword.other.minis",
-          "match": "\\b(use|class|public|private|protected)\\b"
+          "match": "\\b(over|constexpr|global)\\b"
         }
       ]
     },
@@ -103,7 +103,7 @@
       "patterns": [
         {
           "name": "constant.language.boolean.minis",
-          "match": "\\b(true|false|unknown)\\b"
+          "match": "\\b(true|false|other)\\b"
         },
         {
           "name": "constant.language.null.minis",
@@ -170,7 +170,7 @@
         },
         {
           "name": "keyword.operator.other.minis",
-          "match": "(->|\\.\\.|::)"
+          "match": "(->|\\.\\.|::|\\?|:)"
         }
       ]
     },
