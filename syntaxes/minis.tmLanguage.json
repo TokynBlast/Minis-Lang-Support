@@ -162,11 +162,11 @@
         },
         {
           "name": "keyword.operator.assignment.minis",
-          "match": "(\\+=|-=|\\*=|/=|\\^=|=)"
+          "match": "(<<=|>>=|\\+=|-=|\\*=|/=|\\^=|=)"
         },
         {
           "name": "keyword.operator.arithmetic.minis",
-          "match": "(\\+\\+|--|\\+|-|\\*|/|%)"
+          "match": "(<<|>>|\\+\\+|--|\\+|-|\\*|/|%)"
         },
         {
           "name": "keyword.operator.other.minis",
