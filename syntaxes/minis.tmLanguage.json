@@ -158,7 +158,7 @@
         },
         {
           "name": "keyword.operator.logical.minis",
-          "match": "(&&|\\|\\||!|\\bnot\\b)"
+          "match": "(&&|\\|\\||!)"
         },
         {
           "name": "keyword.operator.assignment.minis",
