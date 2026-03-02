@@ -53,16 +53,16 @@ This applies, without warranties of any kind, express or implied.<br>
 This license may be modified by anyone for any reason or purpose.<br>
 
 
-## 6. Void of Contract  
+## 6. Void of Contract
 
-This license remains in effect unless and until the User removes all copies of the Program and any associated Variations within their control. This includes:  
+This license remains in effect unless and until the User removes all copies of the Program and any associated Variations within their control. This includes:
 
 - Deleting the Program and any Variations from all devices the User owns or operates,
 - Removing any cloud-stored or online copies under the User’s control,
 - Closing or disassociating any accounts that distribute or maintain the Program,
 
-This clause **does not require** the User to remove:  
+This clause **does not require** the User to remove:
 
-- Cached versions, backups, or archival copies outside their direct control  
+- Cached versions, backups, or archival copies outside their direct control
 
-Once the Program and all Variations are removed as described above, the rights granted under this license no longer apply to the User.  
+Once the Program and all Variations are removed as described above, the rights granted under this license no longer apply to the User.
