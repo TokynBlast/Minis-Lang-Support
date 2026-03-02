@@ -71,11 +71,11 @@
       "patterns": [
         {
           "name": "keyword.control.minis",
-          "match": "\\b(if|elif|else|while|for|return|break|continue|exit|in|as|with|and|table|use|class|new|!unreachable|public|private|not)\\b"
+          "match": "\\b(if|else|while|for|return|break|continue|exit|in|as|with|and|using|class|new|public|private|try|catch|finally|del|throw|enum|struct)\\b"
         },
         {
           "name": "keyword.other.minis",
-          "match": "\\b(over|constexpr|global)\\b"
+          "match": "\\b(constexpr|global)\\b"
         }
       ]
     },
@@ -83,11 +83,11 @@
       "patterns": [
         {
           "name": "storage.type.numeric.minis",
-          "match": "\\b(i8|i16|i32|i64|ui8|ui16|ui32|ui64|u8|u16|u32|u64|int|float)\\b"
+          "match": "\\b((u|i)(8|16|32|64|128|256|512)|int|float)\\b"
         },
         {
           "name": "storage.type.minis",
-          "match": "\\b(str|bool|tribool|list|dict|void|auto)\\b"
+          "match": "\\b(str|bool|tribool|list|dict|void|auto|array|char)\\b"
         }
       ]
     },
@@ -95,7 +95,7 @@
       "patterns": [
         {
           "name": "storage.modifier.minis",
-          "match": "\\b(const|static|constexpr|over)\\b"
+          "match": "\\b(const|static|constexpr|setonce|inline|alwaysinline)\\b"
         }
       ]
     },
@@ -103,7 +103,7 @@
       "patterns": [
         {
           "name": "constant.language.boolean.minis",
-          "match": "\\b(true|false|other)\\b"
+          "match": "\\b(true|false|nil)\\b"
         },
         {
           "name": "constant.language.null.minis",
