@@ -63,7 +63,7 @@
         },
         {
           "name": "keyword.control.directive.conditional.minis",
-          "match": "^\\s*#(if|endif)\\b"
+          "match": "^\\s*#(if(def)|endif)\\b"
         }
       ]
     },
