@@ -2,7 +2,7 @@
   "name": "minis-language",
   "displayName": "Minis Language Support",
   "description": "Syntax highlighting for the Minis programming language.",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publisher": "RuriDeJishi",
   "repository": {
     "type":"git",
