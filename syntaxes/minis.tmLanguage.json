@@ -71,7 +71,7 @@
       "patterns": [
         {
           "name": "keyword.control.minis",
-          "match": "\\b(if|else|while|for|return|break|continue|exit|in|as|with|and|using|class|new|public|private|try|catch|finally|del|throw|enum|struct)\\b"
+          "match": "\\b(if|else|while|for|return|break|continue|exit|in|as|with|and|using|class|new|public|private|try|catch|finally|del|throw)\\b"
         },
         {
           "name": "keyword.other.minis",
@@ -87,7 +87,7 @@
         },
         {
           "name": "storage.type.minis",
-          "match": "\\b(str|bool|tribool|list|dict|void|auto|array|char)\\b"
+          "match": "\\b(str|bool|tribool|list|dict|void|auto|array|char|enum|struct)\\b"
         }
       ]
     },
