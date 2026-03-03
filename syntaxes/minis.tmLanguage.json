@@ -23,7 +23,16 @@
       "include": "#strings"
     },
     {
+      "include": "#chars"
+    },
+    {
       "include": "#numbers"
+    },
+    {
+      "include": "#builtins"
+    },
+    {
+      "include": "#variables"
     },
     {
       "include": "#operators"
@@ -64,6 +73,14 @@
         {
           "name": "keyword.control.directive.conditional.minis",
           "match": "^\\s*#(if(def)|endif)\\b"
+        },
+        {
+          "name": "keyword.control.directive.pragma.minis",
+          "match": "^\\s*#pragma\\b.*"
+        },
+        {
+          "name": "keyword.control.directive.unroll.minis",
+          "match": "^\\s*#unroll\\b.*"
         }
       ]
     },
@@ -127,6 +144,17 @@
               "match": "\\{\\}"
             }
           ]
+        }
+      ]
+    },
+    "chars": {
+      "patterns": [
+        {
+          "name": "string.quoted.single.minis",
+          "match": "'(\\\\.|[^'\\\\])'",
+          "captures": {
+            "1": { "name": "constant.character.minis" }
+          }
         }
       ]
     },
@@ -212,12 +240,78 @@
     "punctuation": {
       "patterns": [
         {
-          "name": "punctuation.bracket.minis",
-          "match": "[\\(\\)\\{\\}\\[\\]]"
+          "name": "punctuation.parenthesis.open.minis",
+          "match": "\\("
+        },
+        {
+          "name": "punctuation.parenthesis.close.minis",
+          "match": "\\)"
+        },
+        {
+          "name": "punctuation.brace.open.minis",
+          "match": "\\{"
+        },
+        {
+          "name": "punctuation.brace.close.minis",
+          "match": "\\}"
+        },
+        {
+          "name": "punctuation.bracket.open.minis",
+          "match": "\\["
+        },
+        {
+          "name": "punctuation.bracket.close.minis",
+          "match": "\\]"
         },
         {
           "name": "punctuation.delimiter.minis",
           "match": "[,;:]"
+        }
+      ]
+    },
+    "builtins": {
+      "patterns": [
+        {
+          "name": "support.function.builtin.minis",
+          "match": "\\b(print)\\s*(?=\\()",
+          "captures": {
+            "1": { "name": "support.function.print.minis" }
+          }
+        },
+        {
+          "name": "support.function.builtin.minis",
+          "match": "\\b(exit)\\s*(?=\\()",
+          "captures": {
+            "1": { "name": "support.function.exit.minis" }
+          }
+        },
+        {
+          "name": "support.function.builtin.minis",
+          "match": "\\b(len)\\s*(?=\\()",
+          "captures": {
+            "1": { "name": "support.function.len.minis" }
+          }
+        }
+      ]
+    },
+    "variables": {
+      "patterns": [
+        {
+          "comment": "Variable declaration with type annotation: type name = ...",
+          "match": "\\b((u|i)(8|16|32|64|128|256|512)|int|float|str|bool|tribool|list|dict|void|auto|array|char)\\s+([A-Za-z_][A-Za-z0-9_]*)\\s*(?==|;|,)",
+          "captures": {
+            "1": { "name": "storage.type.minis" },
+            "4": { "name": "variable.other.minis" }
+          }
+        },
+        {
+          "comment": "Variable declaration with modifiers: const/static type name",
+          "match": "\\b(const|static|constexpr|setonce)\\s+((u|i)(8|16|32|64|128|256|512)|int|float|str|bool|tribool|list|dict|void|auto|array|char)\\s+([A-Za-z_][A-Za-z0-9_]*)",
+          "captures": {
+            "1": { "name": "storage.modifier.minis" },
+            "2": { "name": "storage.type.minis" },
+            "5": { "name": "variable.other.minis" }
+          }
         }
       ]
     }
