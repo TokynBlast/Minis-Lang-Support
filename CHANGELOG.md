@@ -1,5 +1,12 @@
+### 0.0.8
+<pre>Syntax String Update
+  - Any KW in a string would be colored too
+  - Add single quote for char
+  - Add #pragma
+  - Add #unroll</pre>
+
 ### 0.0.7
-<pre>- Fix image size of logo</pre>
+<pre>Fix image size of logo</pre>
 
 ### 0.0.6
 <pre>Fix syntax
