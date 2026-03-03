@@ -1,3 +1,10 @@
+### 0.0.7
+<pre>- Fix image size of logo</pre>
+
+### 0.0.6
+<pre>Fix syntax
+  - enum and struct were in kw, and have been moved to types</pre>
+
 ### v0.0.5
 <pre>Update syntax
   - Ternary ops
