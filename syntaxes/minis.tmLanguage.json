@@ -145,7 +145,7 @@
             },
             {
               "name": "constant.other.placeholder.minis",
-              "match": "\\{\\}"
+              "match": "\\{*\\}"
             }
           ]
         },
