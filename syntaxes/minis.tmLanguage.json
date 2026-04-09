@@ -309,7 +309,7 @@
       "patterns": [
         {
           "comment": "Variable declaration with type annotation: type name = ...",
-          "match": "\\b((u|i)(8|16|32|64|128|256|512)|int|float|str|bool|tribool|list|dict|void|auto|array|char)\\s+([A-Za-z_][A-Za-z0-9_]*)\\s*(?==|;|,)",
+          "match": "\\b((u|i)(8|16|32|64|128|256|512)|int|float|str|bool|tribool|list|dict|void|auto|ptr|char)\\s+([A-Za-z_][A-Za-z0-9_]*)\\s*(?==|;|,)",
           "captures": {
             "1": { "name": "storage.type.minis" },
             "4": { "name": "variable.other.minis" }
