@@ -1,3 +1,6 @@
+### 0.1.2
+<pre>Add extern KW</pre>
+
 ### 0.1.1
 <pre>Add multiple builtin functions
   - println

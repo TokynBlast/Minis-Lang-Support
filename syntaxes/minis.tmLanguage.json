@@ -92,7 +92,7 @@
       "patterns": [
         {
           "name": "keyword.control.minis",
-          "match": "\\b(elif|if|else|while|for|return|break|continue|exit|in|as|with|and|using|class|new|public|private|try|catch|finally|del|throw|when)\\b"
+          "match": "\\b(elif|if|else|while|for|return|break|continue|exit|in|as|with|and|using|class|new|public|private|try|catch|finally|del|throw|when|extern)\\b"
         },
         {
           "name": "keyword.other.minis",
