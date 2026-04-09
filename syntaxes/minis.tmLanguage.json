@@ -112,7 +112,7 @@
       "patterns": [
         {
           "name": "storage.modifier.minis",
-          "match": "\\b(const|static|constexpr|setonce|inline|alwaysinline)\\b"
+          "match": "\\b(const|static|constexpr|inline|alwaysinline)\\b"
         }
       ]
     },
