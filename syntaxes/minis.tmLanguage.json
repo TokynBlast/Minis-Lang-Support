@@ -81,6 +81,10 @@
         {
           "name": "keyword.control.directive.unroll.minis",
           "match": "^\\s*#unroll\\b.*"
+        },
+        {
+          "name": "keyword.control.directive.error.minis",
+          "match": "^\\s*#error\\b.*"
         }
       ]
     },
