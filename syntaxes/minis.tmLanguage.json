@@ -88,7 +88,7 @@
       "patterns": [
         {
           "name": "keyword.control.minis",
-          "match": "\\b(if|else|while|for|return|break|continue|exit|in|as|with|and|using|class|new|public|private|try|catch|finally|del|throw)\\b"
+          "match": "\\b(elif|if|else|while|for|return|break|continue|exit|in|as|with|and|using|class|new|public|private|try|catch|finally|del|throw|when)\\b"
         },
         {
           "name": "keyword.other.minis",
