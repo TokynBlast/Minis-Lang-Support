@@ -1,3 +1,11 @@
+### 0.1.0
+<pre>Update keywords to use finalized current KW available
+  - Add elif
+  - Remove onceset
+  - Add when
+  - Add ptr type
+Fix string processing</pre>
+
 ### 0.0.8
 <pre>Syntax String Update
   - Any KW in a string would be colored too
