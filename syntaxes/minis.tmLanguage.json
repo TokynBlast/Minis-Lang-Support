@@ -306,6 +306,101 @@
           "captures": {
             "1": { "name": "support.function.println.minis" }
           }
+        },
+        {
+          "name": "support.function.builtin.minis",
+          "match": "\\b(clamp)\\s*(?=\\()",
+          "captures": {
+            "1": { "name": "support.function.clamp.minis" }
+          }
+        },
+        {
+          "name": "support.function.builtin.minis",
+          "match": "\\b(sort)\\s*(?=\\()",
+          "captures": {
+            "1": { "name": "support.function.sort.minis" }
+          }
+        },
+        {
+          "name": "support.function.builtin.minis",
+          "match": "\\b(isLetter)\\s*(?=\\()",
+          "captures": {
+            "1": {
+              "name": "support.function.isLetter.minis"
+            }
+          }
+        },
+        {
+          "name": "support.function.builtin.minis",
+          "match": "\\b(isAlphaNumeric)\\s*(?=\\()",
+          "captures": {
+            "1": {
+              "name": "support.function.isAlphaNumeric.minis"
+            }
+          }
+        },
+        {
+          "name": "support.function.builtin.minis",
+          "match": "\\b(isAlpha)\\s*(?=\\()",
+          "captures": {
+            "1": {
+              "name": "support.function.isAlpha.minis"
+            }
+          }
+        },
+        {
+          "name": "support.function.builtin.minis",
+          "match": "\\b(isNumeric)\\s*(?=\\()",
+          "captures": {
+            "1": {
+              "name": "support.function.isNumeric.minis"
+            }
+          }
+        },
+        {
+          "name": "support.function.builtin.minis",
+          "match": "\\b(flush)\\s*(?=\\()",
+          "captures": {
+            "1": {
+              "name": "support.function.flush.minis"
+            }
+          }
+        },
+        {
+          "name": "support.function.builtin.minis",
+          "match": "\\b(flushln)\\s*(?=\\()",
+          "captures": {
+            "1": {
+              "name": "support.function.flushln.minis"
+            }
+          }
+        },
+        {
+          "name": "support.function.builtin.minis",
+          "match": "\\b(writeln)\\s*(?=\\()",
+          "captures": {
+            "1": {
+              "name": "support.function.writeln.minis"
+            }
+          }
+        },
+        {
+          "name": "support.function.builtin.minis",
+          "match": "\\b(write)\\s*(?=\\()",
+          "captures": {
+            "1": {
+              "name": "support.function.write.minis"
+            }
+          }
+        },
+        {
+          "name": "support.function.builtin.minis",
+          "match": "\\b(max)\\s*(?=\\()",
+          "captures": {
+            "1": {
+              "name": "support.function.max.minis"
+            }
+          }
         }
       ]
     },
