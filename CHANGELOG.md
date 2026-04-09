@@ -1,3 +1,22 @@
+### 0.1.1
+<pre>Add multiple builtin functions
+  - println
+  - write
+  - writeln
+  - max
+  - flush
+  - flushln
+  - isNumeric
+  - isAlpha
+  - isAlphaNumeric
+  - isLetter
+  - clamp
+  - sort
+Remove len builtin function
+Add #error and #ifndef macros
+Remove array storage types completely
+Add ptr types to other storage places</pre>
+
 ### 0.1.0
 <pre>Update keywords to use finalized current KW available
   - Add elif
