@@ -297,8 +297,8 @@
           }
         },
         {
-          "name": "support.function.builtin.minis",
-          "match": "\\b(len)\\s*(?=\\()",
+          "name": "support.function.builtin.println",
+          "match": "\\b(println)\\s*(?=\\()",
           "captures": {
             "1": { "name": "support.function.len.minis" }
           }
