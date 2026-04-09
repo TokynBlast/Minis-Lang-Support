@@ -9,8 +9,8 @@ body:
     attributes:
       value: |
         ## 🪳 Bug Report
-        Thanks for taking the time to report a bug!  
-        Please ensure you're running the **latest version** before submitting.  
+        Thanks for taking the time to report a bug!
+        Please ensure you're using the **latest version** before submitting.
 
   - type: input
     id: bug-title

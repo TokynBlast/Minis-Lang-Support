@@ -10,7 +10,7 @@ body:
       value: |
         ## 🚀 Feature Request
         Thank you for suggesting a new feature! Please fill out the form below.
-  
+
   - type: input
     id: feature-title
     attributes:
