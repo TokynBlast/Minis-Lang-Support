@@ -301,7 +301,7 @@
           }
         },
         {
-          "name": "support.function.builtin.println",
+          "name": "support.function.builtin.minis",
           "match": "\\b(println)\\s*(?=\\()",
           "captures": {
             "1": { "name": "support.function.println.minis" }
