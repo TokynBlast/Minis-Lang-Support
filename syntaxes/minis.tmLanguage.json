@@ -300,7 +300,7 @@
           "name": "support.function.builtin.println",
           "match": "\\b(println)\\s*(?=\\()",
           "captures": {
-            "1": { "name": "support.function.len.minis" }
+            "1": { "name": "support.function.println.minis" }
           }
         }
       ]
