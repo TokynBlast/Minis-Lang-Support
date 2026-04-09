@@ -144,6 +144,17 @@
               "match": "\\{\\}"
             }
           ]
+        },
+        {
+          "name": "string.quoted.double.minis",
+          "begin": "\"",
+          "end": "\"",
+          "patterns": [
+            {
+              "name": "constant.character.escape.minis",
+              "match": "\\\\."
+            }
+          ]
         }
       ]
     },
