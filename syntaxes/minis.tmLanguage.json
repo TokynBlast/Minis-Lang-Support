@@ -104,7 +104,7 @@
         },
         {
           "name": "storage.type.minis",
-          "match": "\\b(str|bool|tribool|list|dict|void|auto|array|char|enum|struct)\\b"
+          "match": "\\b(str|bool|tribool|list|dict|void|auto|char|enum|struct|ptr)\\b"
         }
       ]
     },
