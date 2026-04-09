@@ -132,7 +132,7 @@
       "patterns": [
         {
           "name": "string.quoted.double.minis",
-          "begin": "\"",
+          "begin": "f\"",
           "end": "\"",
           "patterns": [
             {
