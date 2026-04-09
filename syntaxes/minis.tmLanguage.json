@@ -317,7 +317,7 @@
         },
         {
           "comment": "Variable declaration with modifiers: const/static type name",
-          "match": "\\b(const|static|constexpr|setonce)\\s+((u|i)(8|16|32|64|128|256|512)|int|float|str|bool|tribool|list|dict|void|auto|array|char)\\s+([A-Za-z_][A-Za-z0-9_]*)",
+          "match": "\\b(const|static|constexpr|setonce)\\s+((u|i)(8|16|32|64|128|256|512)|int|float|str|bool|tribool|list|dict|void|auto|ptr|char)\\s+([A-Za-z_][A-Za-z0-9_]*)",
           "captures": {
             "1": { "name": "storage.modifier.minis" },
             "2": { "name": "storage.type.minis" },
