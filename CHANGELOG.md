@@ -1,5 +1,6 @@
 ### 0.1.2
-<pre>Add extern KW</pre>
+<pre>Add extern KW
+Allow for text inside braces inside formatted strings</pre>
 
 ### 0.1.1
 <pre>Add multiple builtin functions
