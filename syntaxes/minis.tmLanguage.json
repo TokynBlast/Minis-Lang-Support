@@ -72,7 +72,7 @@
         },
         {
           "name": "keyword.control.directive.conditional.minis",
-          "match": "^\\s*#(if(def)|endif)\\b"
+          "match": "^\\s*#(if(def)|elif|endif)\\b"
         },
         {
           "name": "keyword.control.directive.pragma.minis",
